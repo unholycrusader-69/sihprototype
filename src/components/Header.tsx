@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './logo.jpg';
 import { useApp } from '../contexts/AppContext';
 import { Globe, Eye, User, LogOut, Moon, Sun, Volume2, VolumeX } from 'lucide-react';
 
@@ -25,7 +26,7 @@ export function Header() {
       <div className="flex items-center space-x-3">
         <div className="w-8 h-8 bg-[#00BFA6] rounded-full flex items-center justify-center">
         <img 
-      src="/logo.jpg" 
+      src={logo}
       alt="Logo" 
       className="w-10 h-10 object-contain" 
         />
