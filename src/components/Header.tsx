@@ -28,7 +28,7 @@ export function Header() {
             <img 
             src={logo} 
             alt="KMRL Logo" 
-            className="w-10 h-10 object-cover" 
+            className="w-full h-full object-cover rounded-full" 
           />
         </div>
         <h1 className="text-xl font-bold text-[#00BFA6]">KMRL DocFlow</h1>
