@@ -24,7 +24,12 @@ export function Header() {
     <header className={`${darkMode ? 'bg-gray-900' : 'bg-[#0D1B2A]'} text-white px-6 py-4 flex justify-between items-center shadow-lg`}>
       <div className="flex items-center space-x-3">
         <div className="w-8 h-8 bg-[#00BFA6] rounded-full flex items-center justify-center">
-          <img className="text-white font-bold text-sm" href="logo.jpg">
+        <img 
+      src="logo.jpg" 
+      alt="Logo" 
+      className="w-10 h-10 object-contain" 
+        />
+
         </div>
         <h1 className="text-xl font-bold text-[#00BFA6]">KMRL DocFlow</h1>
       </div>
